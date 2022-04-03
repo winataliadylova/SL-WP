@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229, 237, 235);
+    /* background-color: red; */
+}
+
+.container-judul{
+    padding: 10pt;
+    margin-bottom: 20pt;
+}
+
+.container-judul-text{
+    font-size: 20pt;
+}
+
+.container-desk{
+    padding-bottom: 10pt;
+
+}
+
+.container-desk-text{
+    font-size: 30pt;
+}
+
+.container-button{
+    display: flex;
+    align-items: center;
+    padding-top: 10pt;
+    margin-bottom: 50pt;
+
+}
+.container-button a{
+    text-decoration: none;
+    color: black;
+}
+
+.container-button-card1{
+    background-color: aqua;
+    margin-right: 20pt;
+    padding: 20pt 30pt;
+}
+.container-button-card2{
+    background-color: limegreen;
+    margin-left: 20pt;
+    padding: 20pt 25pt;
+}
+
+.register-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(194, 240, 247);
+}
+
+.judul-register{
+    padding: 20pt;
+    font-size: 25pt;
+}
+
+.kembali{
+    text-decoration: none;
+    color: black;
+}
+
+.back-card{
+    background-color: rgb(253, 215, 172);
+    text-align: center;
+    border-radius: 5pt;
+    padding: 5pt;
+    
+}
+
+.Register{
+    background-color: rgb(173, 245, 159);
+    padding: 5pt;
+    border-radius: 5pt;
+    font-size: 13pt;
+}
+
+table{
+    padding: 10pt;
+}
+
+.login-container{
+    background-color: rgb(251, 253, 172);
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20pt;
+}
+
+.judul-login{
+    font-size: 15pt;
+    padding-bottom: 20pt;
+}
+
+.button-login{
+    display: flex;
+    justify-content: space-around;
+}
+.Login{
+    font-size: 13pt;
+    border-radius: 5pt;
+    background-color: rgb(173, 245, 159);
+    padding: 5pt;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10pt 20pt;
+    font-size: 20pt;
+    background-color: rgb(249, 255, 202);
+}
+
+.navbar-button a{
+    color: black;
+}
+
+.other{
+    text-decoration: none;
+}
+.navbar-logout a{
+    text-decoration: none;
+    color: black;
+}
+.Deskripsi-Body{
+    background-color: rgb(202, 209, 255);
+    height: 300pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15pt;
+}
+
+.profile-table{
+    background-color: rgb(202, 209, 255);
+    padding-top: 10pt;
+    height: 300pt;
+    display: flex;
+    justify-content: center;
+}
+.judul-profil{
+    font-size: 20pt;
+}
+.foto > img{
+    height: 50pt;
+    width: 50pt;    
+}
